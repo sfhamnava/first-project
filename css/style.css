@@ -1,0 +1,78 @@
+
+/* Utilty Classes */
+
+.img-responsive{
+    max-width: 100%;
+}
+ .hero_image{
+     background: url(../image/pexels-valeria-boltneva-1639562.jpg);
+     background-size: cover;
+     height: 100vh;
+     position: relative;
+ }
+ .hero_wrapper{
+     color: white;
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%,-50%);
+ }
+
+ .hero_wrapper h1 {
+     font-size: 50px;
+     text-align: center;
+ }
+
+ .hero_wrapper span{
+     margin-left: 5rem;
+     display: inline-block;
+     margin-bottom: .5rem;
+     font-weight: bold;
+ }
+
+.form_code{
+    text-align: center;
+}
+
+ .form_code .post_code{
+     display: block;
+     width: 80%;
+     margin-left: auto;
+     margin-right: auto;
+     border-radius: 2rem;
+     padding: .6rem;
+     border: none;
+     outline: none;
+
+ }
+
+ .form_code button{
+     width: 40%;
+     margin-left: auto;
+     margin-right: auto;
+     text-align: center;
+     margin: 20px;
+     padding: 10px;
+     border-radius: 5px;
+     background-color: aqua;
+     border: none;
+     color: white;
+ }
+
+ /* product Section */
+
+
+
+ .product{
+     width: 90%;
+     margin-top: .5rem;
+     margin-left: auto;
+     margin-right: auto;
+    
+ }
+
+ .product_list_item{
+     width: 32%;
+     float: left;
+     margin-left: 10px;
+ }
